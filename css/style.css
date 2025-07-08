@@ -134,3 +134,50 @@ main{
 .loc button{
     margin: 26px 0 0 ;
 }
+/* offer styles */
+.offer{
+    display: flex;
+    align-items: center;
+}
+
+.offer-title {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0;
+}
+.offer-coming-soon{
+    font-family: Merriweather;
+    font-weight: 900;
+    font-size: 48px;
+    margin: 16px 0 22px;
+}
+.offer-description, .offer-year-description{
+    font-size: 22px;
+    font-family: inter;
+    margin: 0;
+    color: rgba(7, 2, 17, 0.6);
+}
+.offer-year{
+    font-family: inter;
+    font-weight: bold;
+    font-size: 48px;
+    margin:0 0 16px 0;
+}
+.happy-year{
+    margin: 48px 0 0 0;
+}
+.first-child-parent{
+    margin-right: 50px;
+}
+.happy-year-candle-img{
+    margin-right: 100px;
+}
+.third-child{
+    margin-left: 30px;
+    /* text-align: left; */
+}
+.third-child .offer-year-description{
+    font-size: 18px;
+    line-height: 160%
+}
