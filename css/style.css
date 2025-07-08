@@ -13,6 +13,16 @@ main{
 .primary-font{
     font-family:'Inter Medium', Arial, sans-serif;
 }
+.btn-primary{
+    font-family: inter;
+    padding: 16px 32px;
+    background-color: #FF0000;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
 /* banner styles */
 .banner{
     height: 600px;
@@ -29,6 +39,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 .banner-description h5{
     font-family: Merriweather;
@@ -46,7 +57,7 @@ main{
 }
 /* off styles */
 .off{
-    margin-top: 120px;
+    margin: 120px 0;
 }
 .off-title{
     font-size: 88px;
@@ -65,4 +76,39 @@ main{
     font-weight: bold;
     font-size: 48px;
     margin: 0 0 48px 0;
+}
+/* party styles */
+.party{
+    background-image: url(../images/Vectorrr.png) ;
+    height: 600px; 
+    background-color: rgba(0, 0, 0, 0.553);
+    /* background-color: rgba(7, 2, 17, 0); */
+    border-radius: 16px;
+    background-blend-mode: multiply; 
+}
+.party-night{
+    display: flex;
+    padding: 0 140px 0 126px;
+    align-items: center;
+    gap: 40px;
+}
+.party-tex{
+    color: white;
+}
+.party-tex h1{
+    font-family: Merriweather;
+    font-size: 68px;
+    font-weight: 900;
+    margin: 0;
+}
+.party-description{
+    font-family: inter;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    margin: 24px 0 48px;
+}
+.party-img img{
+    height: 464.66px;
+    padding: 68px 0;
+    background-blend-mode:multiply ;
 }
