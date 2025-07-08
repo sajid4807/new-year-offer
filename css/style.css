@@ -112,3 +112,25 @@ main{
     padding: 68px 0;
     background-blend-mode:multiply ;
 }
+/* location */
+.location{
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.13) 0%, rgba(255, 0, 0, 0) 100%);
+    margin: 120px 0;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.location-place, .location-date, .location-time{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0 0 22px 0;
+}
+.loc{
+    padding: 100px 385px;
+}
+.loc button{
+    margin: 26px 0 0 ;
+}
