@@ -3,6 +3,16 @@ main{
     max-width: 1320px;
     margin: 0 auto;
 }
+/* common styles */
+.text-center{
+    text-align: center;
+}
+.primary-color{
+    color: #FF0000;
+}
+.primary-font{
+    font-family:'Inter Medium', Arial, sans-serif;
+}
 /* banner styles */
 .banner{
     height: 600px;
@@ -11,9 +21,6 @@ main{
     background-blend-mode: multiply;
     border-radius: 16px;
     margin-top: 30px;
-}
-.primary-font{
-    font-family:'Inter Medium', Arial, sans-serif;
 }
 .banner-description{
     height: 600px;
@@ -36,4 +43,26 @@ main{
 }
 .banner-description h4{
     margin: 0;
+}
+/* off styles */
+.off{
+    margin-top: 120px;
+}
+.off-title{
+    font-size: 88px;
+    font-weight: bold;
+    font-family: inter;
+    margin:0 0 30px 0;
+}
+.off-sub-title{
+    font-size: 24px;
+    font-family: inter;
+    font-weight: 500;
+    margin:0 0 16px 0;
+}
+.off h3{
+    font-family: inter;
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0 0 48px 0;
 }
