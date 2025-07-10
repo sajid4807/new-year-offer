@@ -14,7 +14,6 @@ main{
     font-family:'Inter Medium', Arial, sans-serif;
 }
 .btn-primary{
-    font-family: inter;
     padding: 16px 32px;
     background-color: #FF0000;
     font-size: 20px;
@@ -42,12 +41,12 @@ main{
 
 }
 .banner-description h5{
-    font-family: Merriweather;
+    font-family: "Merriweather";
     font-size: 32px;
     margin: 0;
 }
 .banner-description h2,h4{
-    font-family: Merriweather;
+    font-family: "Merriweather";
     font-size: 72px;
     font-weight: 900;
     margin: 16px 0 10px;
@@ -67,12 +66,12 @@ main{
 }
 .off-sub-title{
     font-size: 24px;
-    font-family: inter;
+    font-family: "inter";
     font-weight: 500;
     margin:0 0 16px 0;
 }
 .off h3{
-    font-family: inter;
+    font-family: "inter";
     font-weight: bold;
     font-size: 48px;
     margin: 0 0 48px 0;
@@ -96,13 +95,13 @@ main{
     color: white;
 }
 .party-tex h1{
-    font-family: Merriweather;
+    font-family: "Merriweather";
     font-size: 68px;
     font-weight: 900;
     margin: 0;
 }
 .party-description{
-    font-family: inter;
+    font-family: "inter";
     color: rgba(255, 255, 255, 0.8);
     font-size: 18px;
     margin: 24px 0 48px;
@@ -123,7 +122,7 @@ main{
     align-items: center; */
 }
 .location-place, .location-date, .location-time{
-    font-family: inter;
+    font-family: "inter";
     font-weight: 600;
     font-size: 32px;
     margin: 0 0 22px 0;
@@ -141,31 +140,31 @@ main{
 }
 
 .offer-title {
-    font-family: inter;
+    font-family: "inter";
     font-weight: 500;
     font-size: 24px;
     margin: 0;
 }
 .offer-coming-soon{
-    font-family: Merriweather;
+    font-family: "Merriweather";
     font-weight: 900;
     font-size: 48px;
     margin: 16px 0 22px;
 }
 .offer-description{
     font-size: 20px;
-    font-family: inter;
+    font-family: "inter";
     margin: 0;
     color: rgba(7, 2, 17, 0.6);
 }
 .offer-year-description{
     font-size: 20px;
-    font-family: inter;
+    font-family: "inter";
     margin: 0;
     color: rgba(7, 2, 17, 0.6);
 }
 .offer-year{
-    font-family: inter;
+    font-family: "inter";
     font-weight: bold;
     font-size: 48px;
     margin:0 0 10px 0;
@@ -186,20 +185,20 @@ main{
     text-align: center;
 }
 .holiday h6{
-    font-family: inter;
+    font-family: "inter";
     font-weight: 500;
     font-size: 24px;
     margin: 0;
 }
 .holiday h5{
-    font-family: Merriweather;
+    font-family: "Merriweather";
     font-weight: 900;
     font-size: 72px;
     margin: 10px 0 20px;
     color: #070211;
 }
 .holiday p{
-    font-family: inter;
+    font-family: "inter";
     font-weight: 500;
     font-size: 20px;
     color: rgba(7, 2, 17, 0.6);
@@ -214,13 +213,13 @@ main{
     margin:120px 0 120px 0;
 }
 .portfolio-sub-title{
-    font-family: inter;
+    font-family: "inter";
     font-weight: 500;
     font-size: 24px;
     margin: 0;
 }
 .portfolio-title{
-    font-family: Merriweather;
+    font-family: "Merriweather";
     font-weight: 900;
     font-size: 48px;
     margin: 8px 0 17px;
@@ -245,13 +244,13 @@ main{
     text-align: center;
 }
 .newsletter-title{
-    font-family: Merriweather;
+    font-family: "Merriweather";
     font-weight: 900;
     font-size: 48px;
     margin: 20px 0 10px;
 }
 .newsletter-description{
-    font-family: inter;
+    font-family: "inter";
     font-size: 20px;
     color:  rgba(7, 2, 17, 0.6);
     margin: 0 0 48px 0;
@@ -262,22 +261,15 @@ main{
     border-radius: 50px;
     border: none;
     padding-left: 30px;
-    font-family: inter;
+    font-family: "inter";
     font-size: 18px;
     color: rgba(7, 2, 17, 0.3);
     outline: none;
 }
-/* .subscribe-newsletter form .email{
-    position: relative;
-}
-.subscribe-newsletter form .form-button{
-    position: absolute;
-    top: 0;
-} */
 .subscribe-newsletter form input[type="button"]{
     width: 210px;
     height: 74px;
-    font-family: inter;
+    font-family: "inter";
     font-weight: 600;
     font-size: 20px;
     color: white;
@@ -293,4 +285,44 @@ main{
 }
 .newsletter-mail-img{
     margin: 80px 0 0 0;
+}
+/* footer styles */
+.footer{
+    background-color: #070211;
+    padding: 120px 0;
+}
+.sub-footer{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.footer-first-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content h5, .contact, .internet, .copyright, .unsubscribe{
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+.footer-first-parent .footer-cont{
+    padding-right: 135px;
+}
+.footer-first-parent .footer-cont span img{
+    padding-right: 8px;
+}
+.footer hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 50px 0;
+}
+.footer-second-parent{
+    text-align: center;
+}
+.footer-second-parent img{
+    padding: 0 12px;
+}
+.footer-third-parent{
+    display: flex;
+    justify-content: space-between;
 }
